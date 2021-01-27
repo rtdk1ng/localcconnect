@@ -1,0 +1,498 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    color: black;
+    margin: 0;
+}
+ 
+/* Header */
+ 
+.header_wrap {
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #101010;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    color: white;
+
+}
+
+.header_width {
+    width: 100%;
+    height: auto;
+    background-color: #101010;
+}
+ 
+.header__logo {
+    margin: 0 10px;
+}
+ 
+.header__section {
+    display: flex;
+    align-items: center;
+}
+ 
+.header__item {
+    margin: 0 10px;
+    padding: 3px;
+}
+ 
+.header__item a {
+    text-decoration: none;
+    color: yellow;
+    
+}
+ 
+span:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 9.5px;
+}
+
+/* Container 1 (bg-form) */
+
+/* <div class="container reviews">
+        <div class="mtop">
+            <h2>Отзывы</h2>
+        </div>
+        <div class="row wrap">
+            <div class="col-md-3 silver">
+                <h2>Тимур</h2>
+                <p>Ваш сервис мне посоветовал коллега по работе.
+                            Спасибо большое вам за чистку ноутбука, он очень сильно грелся и шумел, сделал все очень быстро, теперь если вдруг что, пойду к вам и друзьям советовать буду Ещё раз спасибо большое</p>
+            </div>
+            <div class="col-md-3 silver">
+                <h2>Анна</h2>
+                <p>Спасибо большое за помощь!
+                            Во время транспортировки разбил экран моего аймака, так как это был рабочий аппарат не было времени долго ждать, загуглил сервисные центры и позвонил сюда, мастер приехал оперативно и забрал технику в сервис, на следующий день я уже получил его с новым экраном</p>
+            </div>
+            <div class="col-md-3 silver">
+                <h2>Айсулу</h2>
+                <p>Компьютер зависал намертво с синим экраном, вызвал мастера, проблема оказалась связана с оперативной памятью, мастер прямо на месте поменял на новую и проблема исчезла. Спасибо за оперативную помощь.</p>
+            </div>
+            <div class="col-md-3 bordernone silver">
+                <h2>Роман</h2>
+                <p>Специалист компании быстро отреагировал на мою проблему. Компьютер в один момент перестал включаться, мастер в сервисе сказал, что сломался блок питания, и посоветовал заменить его, так как чинить его выйдет дороже. Так и поступили, времени много это не заняло и по деньгам вышло не дорого.</p>
+            </div>
+        </div>
+    </div> */
+
+.image {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    background-color: #232323;
+    text-align: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.inside {
+    text-align: center;
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container-wrap {
+    width: 50%;
+    max-width: 1140px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container-wrap h2 {
+    color: yellow;
+    font-size: 25px;
+    width: 300px;
+}
+
+
+.form {
+    background-color: #303030;
+    width: 300px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.form input {
+    width: 90%;
+    margin: 10px 10px ;
+    padding: 0;
+}
+
+.form h4, p {
+    padding: 0;
+    margin: 0;
+    color: yellow;
+}
+
+.form button {
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid black;
+}
+
+/* Container 2 (HWW, Reviews)  */
+
+
+.wrap h4 {
+    text-align: center;
+    color: yellow;
+
+}
+
+.col-md-3 {
+    border-right: 1px solid white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bordernone {
+    border: none;
+}
+
+.hww {
+    background-color: #232323;
+    width: 100%;
+    max-width: 1140px;
+    height: 500px;
+    
+}
+
+.numbers {
+    border: none;
+    margin-bottom: 1px;
+}
+
+.mtop {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.mtop h2 {
+    color: silver;
+}
+
+.detection h2 {
+    color: silver;
+    margin-top: 30px;
+}
+
+.silver h2{
+    color: silver;
+    margin-bottom: 20px;
+}
+
+.reviews {
+    background-color: #232323;
+    width: 100%;
+    max-width: 1140px;
+    height: 500px;
+}
+
+.reviews .mtop {
+    margin-bottom: 50px;
+}
+/* Discussion container */
+.discussion_image a {
+    background-color: #232323;
+}
+
+.discussion_image {
+    margin-left: 150px;
+}
+
+.discussion_text ol {
+    list-style-type: outside;
+    padding-left: 16px;
+    color: yellow;
+}
+
+.discussion_text h3 {
+    color: silver;
+}
+
+
+.discussion_text {
+    margin-bottom: 25px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background-color: #101010;
+    min-height: 100px;
+    margin-top: 200px;
+}
+
+.footer_container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1140px;
+}
+
+.row_footer {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.links_icon {
+    position: absolute;
+    right: 0;
+}
+
+.footer_col {
+    position: relative;
+}
+
+.fa-instagram {
+    color: pink;
+}
+.fa-vk {
+    color: #2787F5;
+}
+.fa-facebook-f {
+    color: #3C5A99;
+}
+
+.links_icon i {
+    margin: 0 5px;
+}
+
+.links p {
+    color: white;
+}
+/* Service page */
+
+.centered {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    height: auto;
+}
+
+.service_title h2 {
+    color: silver;
+    margin-top: 50px;
+}
+
+.service_title_wrap {
+    width: 500px;
+    margin: 30px auto;
+    
+}
+
+.service_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.service_text {
+    margin-top: 10px;
+}
+
+.service_item p {
+    color: silver;
+}
+
+.service_section {
+    margin-bottom: 20px;
+}
+
+.service_block {
+    margin: 50px 0;
+}
+
+/* page 3 contacts */
+
+.title_contacts  h2 {
+    color: silver;
+}
+
+.title_contacts {
+    margin: 20px 0;
+}
+
+.text_contacts {
+    margin: 20px 0;
+}
+
+.map_container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.icon_contacts a{
+    font-size: 20px;
+    padding-right:10px;
+}
+
+.icon_contacts {
+    margin-bottom: 20px;
+}
+
+/* page 4 about us */
+
+.aboutus {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 50px;
+            
+}
+
+.col {
+    width: 100%;
+    min-height: auto;
+    margin: 100px 0;
+}
+
+.col h2 {
+    color: silver;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.col1 {
+    background-image: url('/img/32441.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-radius: 50px;
+    background-position-x: 30px;
+}
+
+.status {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.title {
+    text-align: center;
+    
+}
+
+.title h1 {
+    color: silver;
+}
+
+.colwrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    color: white;
+}
+
+.column h4 {
+    color: silver;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.column p {
+    text-align: center;
+}
+
+.column {
+    border: 1px solid silver;
+    border-radius: 50px;
+}
+
+/* last page */
+
+.titler h2 {
+    color: silver;
+    text-align: center;
+}
+
+.titler p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.codewrap {
+    display: flex;
+    justify-content: center;
+}
+
+.titler {
+    width: 100%;
+    max-width: 500px;
+    margin: 100px 0;
+}
+
+.fleks {
+    display: flex;
+    justify-content: center;
+}
+
+.colmnform {
+    width: 100%;
+    max-width: 400px;
+}
+
+.colmnform > form > input {
+    border-radius: 20px;
+    border: 1px solid silver;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.colmnform {
+    margin-bottom: 20px;
+}
+
+.colmnform button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.change {
+    margin-top: 250px;
+}
+
+.textarea {
+    width: 100%;
+    height: 150px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
